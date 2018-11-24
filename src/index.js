@@ -1,5 +1,13 @@
 import './style/main.scss'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
-const test = () => console.log('Hi, from src/index.js')
+import App from './App'
 
-test()
+ReactDOM.render((
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+), document.getElementById('app'))
+

@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  background-color: #00C7FF;
+  height: 50px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    &.current > .nav-bar-link > p {
+      color: #000;
+    }
+  }
+}
+
+.nav-bar-link {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  p {
+    color: #fff;
+    margin: 0;
+  }
+}
