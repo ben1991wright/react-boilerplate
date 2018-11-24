@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700);
+.nav-bar {
+  display: flex;
+  background-color: #00C7FF;
+  height: 50px;
+  align-items: center; }
+  .nav-bar a {
+    text-decoration: none; }
+    .nav-bar a.current > .nav-bar-link > p {
+      color: #000; }
+
+.nav-bar-link {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; }
+  .nav-bar-link p {
+    color: #fff;
+    margin: 0; }
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  margin: 0; }
+
